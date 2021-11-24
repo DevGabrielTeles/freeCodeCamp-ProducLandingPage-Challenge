@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Product Landing Page</title>
+</head>
+<!-- HEADER -->
+  <!--User Story #1-->
+  <header id="header">
+    <!--User Story #2-->
+    <img 
+    id="header-img" 
+    class="logo-img"
+    src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" 
+    alt="logo quadros4you" >
+   <!--User Story #3-->
+    <nav id="nav-bar"  class="navMenu">
+    <!--User Story #4 & 5 & 13-->
+    <!-- Especificação de usuário nº 13: a barra de navegação deve estar sempre na parte superior da viewport. -->
+      <a href="#quem-somos" class="nav-link">Sobre</a>
+      <a href="#video-div" class="nav-link">Video</a>
+      <a href="#form" class="nav-link">Mailing</a>
+      <div class="dot"></div>
+   </nav>
+  </header>
+
+<!-- BODY -->
+<body>
+  <!-- seçao 3 -->
+  <div class="quem-somos" id="quem-somos">
+    <div class="quem-somos-div">
+      <h2>Quem somos</h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+      aliqua. Sit amet nulla facilisi morbi. Elementum curabitur vitae nunc sed velit dignissim sodales. Sed augue lacus
+      viverra vitae. Turpis in eu mi bibendum neque egestas congue quisque. Amet consectetur adipiscing elit ut. Habitant
+      morbi tristique senectus et netus et malesuada fames ac. Gravida neque convallis a cras semper auctor neque. Ut pharetra
+      sit amet aliquam id diam. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Tristique et egestas quis ipsum
+      suspendisse ultrices gravida dictum fusce.</p>
+  
+      <p> Nunc non blandit massa enim nec dui nunc mattis enim. Quam vulputate dignissim suspendisse in. Mattis molestie a iaculis
+      at erat pellentesque adipiscing. In metus vulputate eu scelerisque felis imperdiet proin. Gravida cum sociis natoque
+      penatibus et. Auctor elit sed vulputate mi sit amet mauris commodo. Luctus accumsan tortor posuere ac ut consequat
+      semper. Eget lorem dolor sed viverra ipsum nunc. Eu augue ut lectus arcu bibendum. Integer enim neque volutpat ac
+      tincidunt vitae semper quis lectus. Vitae turpis massa sed elementum tempus egestas. Eros donec ac odio tempor orci
+      dapibus ultrices in iaculis. Volutpat odio facilisis mauris sit amet massa vitae. Nibh cras pulvinar mattis nunc sed
+      blandit libero volutpat. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eget felis eget
+      nunc lobortis mattis aliquam faucibus purus in.
+      </p>
+
+    </div>
+  </div>
+  <!-- seçao 2 -->
+  <!-- Video -->
+  <div id="video-div" align="left" atlye="width 100%; overflow: hidden">
+    <!--User Story #6-->
+    <iframe id="video" class="responsive-iframe" width="1200" height="600" src="https://www.youtube.com/embed/_5axSZphfqk"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+</body>
+
+<footer>
+  <!-- seçao 1 -->
+  <div class="sign-up-page">
+    <div class="sign-up-page__1">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for=""> <strong>Se inscreva na nossa Mailing List</strong></label>
+        <br>
+        <input name="email" id="email" type="email" placeholder="Enter your email address" width="100%" required="">
+        <br>
+        <input id="submit" type="submit" value="Cadastrar" class="btn">
+      </form>
+    </div>
+  </div>
+</footer>
+
+<!-- Especificação de usuário nº 14: a landing page deve ter pelo menos uma media query. -->
+</html>

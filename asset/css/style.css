@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-img {
+  width: 100px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background: rgb(255, 255, 255);
+}
+
+nav {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.sign-up-page__1 {
+  background: white;
+  padding: 20px;
+  width: max-content;
+  border-radius: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+form,
+input,
+label {
+  margin: 5px;
+  /* importante */
+  display: flex;
+  width: auto;
+  height: 100;
+  flex-direction: column;
+}
+
+button#submit {
+  padding: 5px;
+}
+
+div#video-div {
+  height: 1200px;
+  display: flex;
+  background: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?cs=srgb&dl=pexels-c%C3%A1tia-matos-1072179.jpg&fm=jpg);
+  /* Centralizando todos elementos do login ao centro */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 3rem;
+  text-align: justify;
+  text-indent: 2rem;
+}
+
+label {
+  margin: 1rem;
+  font-size: large;
+}
+
+.navMenu {
+  position: right;
+}
+
+.navMenu a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+/* ###################################################### */
+.quem-somos-div {
+  margin: 10rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.responsive-iframe {
+  width: 70%;
+  height: 70%;
+  border: none;
+}
+
+.sign-up-page {
+  height: 1200px;
+  display: flex;
+  background: url(https://www.pixel4k.com/wp-content/uploads/2019/04/peaceful-blur-background-4k_1555207903.jpg);
+  /* Centralizando todos elementos do login ao centro */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.quem-somos {
+  height: 1300px;
+  background: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg);
+  /* Centralizando todos elementos do login ao centro */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1400px) {
+  .quem-somos-div {
+    margin: 10rem;
+  }
+  .quem-somos {
+    height: 850px;
+  }
+  div#video-div {
+    height: 850px;
+  }
+  .sign-up-page {
+    height: 850px;
+  }
+  .sign-up-page__1 {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .quem-somos-div {
+    margin: 5rem;
+  }
+  .responsive-iframe {
+    width: 73%;
+    height: 48%;
+    border: none;
+  }
+  .quem-somos {
+    height: 900px;
+  }
+  div#video-div {
+    height: 850px;
+  }
+  .sign-up-page {
+    height: 850px;
+  }
+  .sign-up-page__1 {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .quem-somos-div {
+    margin: 2rem;
+  }
+  .responsive-iframe {
+    width: 90%;
+    height: 48%;
+  }
+  .quem-somos {
+    height: 1090px;
+  }
+  div#video-div {
+    height: 1090px;
+  }
+  .sign-up-page {
+    height: 1090px;
+  }
+  .sign-up-page__1 {
+    padding: 5px;
+  }
+  /*MENU RESPONSIVO*/
+}
+
+@media only screen and (max-width: 550px) {
+  .quem-somos-div {
+    margin: 1rem;
+  }
+  .responsive-iframe {
+    width: auto;
+    height: auto;
+  }
+  .quem-somos {
+    height: 1400px;
+  }
+  div#video-div {
+    height: 850px;
+  }
+  .sign-up-page {
+    height: 850px;
+  }
+  .sign-up-page__1 {
+    padding: 5px;
+  }
+  /*MENU RESPONSIVO*/
+  .navMenu {
+    opacity: 1;
+  }
+  .logo-img {
+    width: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+    padding: 25px;
+  }
+}
