@@ -44,7 +44,24 @@ Este site foi construído usando todo conhecimento adquirido em [FreeCodeCamp](h
 
 [Codepen.io](x)
 
-![image](y)
+![image](https://user-images.githubusercontent.com/93494655/143326430-a448ef7b-9556-40e8-ab95-d12edb0a211d.png)
 
-![image](z)
+![image](https://user-images.githubusercontent.com/93494655/143326449-54007d0b-9d53-4bce-abc5-00ed7fae8d25.png)
+
+![image](https://user-images.githubusercontent.com/93494655/143326461-a723176a-1fa8-4271-8b5c-b386fb024e08.png)
+
+##RESPONSIVIDADE
+
+![image](https://user-images.githubusercontent.com/93494655/143326520-db527362-b2f4-4830-aada-f769104fedb4.png)
+
+![image](https://user-images.githubusercontent.com/93494655/143326533-304c8f12-78d1-48cf-8ed1-38bbb636f7a5.png)
+
+![image](https://user-images.githubusercontent.com/93494655/143326555-89eea7c8-7af3-4e70-801b-7a8cd6c9ae48.png)
+
+![image](https://user-images.githubusercontent.com/93494655/143326571-b4739560-f1df-48b0-9b26-bd4a962266da.png)
+
+![image](https://user-images.githubusercontent.com/93494655/143326589-c380f411-2f0b-40be-8f8d-6cc7266d1c2f.png)
+
+![image](https://user-images.githubusercontent.com/93494655/143326577-fb75cd6e-55b3-4fb6-995e-a5a9e7368f4a.png)
+
 
